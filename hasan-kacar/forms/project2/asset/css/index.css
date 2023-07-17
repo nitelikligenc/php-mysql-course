@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container-div{
+    width: 790px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.baslik-icerigi{
+    border-bottom: 1px solid #616161;
+    padding-bottom: 17px;
+}
+
+.flex-div{
+    display: flex;
+}
+
+.ortak-genislik{
+    width: 50%;
+}
+
+.label-div > label{
+    font-size: 1.1rem;
+    font-weight: 600;
+    font-family: ui-monospace;
+}
+
+.input-div > input{
+    width: 82%;
+    height: 16px;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #9E9E9E;
+    margin-top: 10px;
+}
+
+.label-input-genel-div{
+    margin-top: 26px;
+}
+
+.ilk-div{
+    margin-top: 0!important;
+}
+
+.cinsiyet-input{
+    width: 20px!important;
+}
+
+.mt-10{
+    margin-top: 10px;
+}
+
+.mt-30{
+    margin-top: 30px;
+}
+
+.mt-1{
+    margin-top: 1px;
+}
+
+#sozlesme{
+    width: 20px!important;
+}
+
+.sozlesme-label{
+    margin-top: 7px;
+}
+
+.sozlesme-genel-div{
+    border-top: 1px solid #9E9E9E;
+}
+
+.submit-button{
+    background-color: #7CB342;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 45px;
+    cursor: pointer;
+}
+
+.aciklamada-div{
+    font-size: 2rem;
+    text-align: center;
+    padding-left: 5rem;
+}

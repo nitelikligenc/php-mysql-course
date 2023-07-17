@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="asset/css/index.css">
+</head>
+<body>
+<section id="form_content__section">
+    <div id="test_div" class="container-div">
+      <h1 class="baslik-icerigi">Form ve HTML Dersi</h1>
+
+      <div class="flex-div">
+        <div class="form-div ortak-genislik">
+            <form action="index.php" method="post">
+                <div class="label-input-genel-div ilk-div">
+                    <div class="label-div">
+                        <label for="name_surname">İsim Soyisim</label>
+                    </div>
+                    <div class="input-div">
+                        <input id="name_surname" type="text" name="name_surname" placeholder="Name Surname">
+                    </div>
+                </div>
+
+                <div class="label-input-genel-div">
+                    <div class="label-div">
+                        <label for="email">E-Mail</label>
+                    </div>
+                    <div class="input-div">
+                        <input id="email" type="email" name="email" placeholder="test@gmail.com">
+                    </div>
+                </div>
+
+                <div class="label-input-genel-div">
+                    <div class="label-div">
+                        <label for="date">Doğum Tarihi</label>
+                    </div>
+                    <div class="input-div">
+                        <input id="date" type="text" name="date" placeholder="test@gmail.com">
+                    </div>
+                </div>
+
+                <div class="label-input-genel-div">
+                    <div class="label-div">
+                        <label for="date">Cinsiyet</label>
+                    </div>
+                    <div class="input-div">
+                        <div class="flex-div mt-10">
+                            <div class="erkek-input-alani flex-div">
+                                <div class="erkek-text-div mt-1">Erkek</div>
+                                <div class="erkek-input-div"><input class="cinsiyet-input" id="gender_man" type="radio" name="gender" value="erkek"></div>
+                            </div>
+
+                            <div class="kadin-input-alani flex-div">
+                                <div class="kadin-text-div mt-1">Kadın</div>
+                                <div class="kadin-input-div"><input class="cinsiyet-input" id="gender_woman" type="radio" name="gender" value="kadin"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flex-div mt-10 sozlesme-genel-div">
+                    <div class="label-div sozlesme-label">
+                        <label for="sozlesme">Okudum, Onaylıyorum</label>
+                    </div>
+                    <div class="input-div">
+                        <input id="sozlesme" type="checkbox" name="sozlesme">
+                    </div>
+                </div>
+
+                <div class="mt-30">
+                    <button class="submit-button" type="submit">Kaydet</button>
+                </div>
+            </form>
+        </div>
+        <div class="aciklamada-div ortak-genislik">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque commodi consectetur cum dolore est facilis ipsa itaque natus nemo nesciunt nostrum optio praesentium quas ratione repudiandae, rerum vel veritatis voluptates?
+        </div>
+      </div>
+    </div>
+</section>
+</body>
+</html>
