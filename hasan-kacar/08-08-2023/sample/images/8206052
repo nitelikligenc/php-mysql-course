@@ -1,0 +1,317 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<title>Sokak ortasında dehşet kamerada! Eşini tekme tokat d&ouml;verek bayılttı</title>
+<meta name="robots" content="noindex">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="canonical" href="https://www.mynet.com/tv/embed/8206052"/>
+<link rel="stylesheet" href="//s.mynet.com.tr/rosetta/services/video/production/build/css/player.css?id=64b21d426baf4dcbc15e">
+<style>
+body, html {
+margin: 0;
+padding: 0;
+width: 100%;
+height: 90%;
+background-color: #000;
+min-height: 100%;
+color: #fff;
+}
+body {
+overflow: hidden !important
+}
+#nokta-player {
+width: 100% !important;
+height: 100% !important;
+position: absolute !important;
+left: 0 !important;
+top: 0 !important;
+}
+</style>
+<script src="//securepubads.g.doubleclick.net/tag/js/gpt.js"></script>
+<script async src="https://adl.mynetreklam.com/mynetads/ads-manager/prebid-video.js?id=a56b8bd8ba7d8ed5cb939c734b817df4&1"></script>
+<script src="//imasdk.googleapis.com/js/sdkloader/ima3.js"></script>
+<script src="//s.mynet.com.tr/rosetta/services/video/production/build/js/player.js?id=a148393c437f2457e7d1"></script>
+</head>
+<body>
+<div id="player-wrapper">
+<div id="nokta-player"></div>
+</div>
+<script>
+var hlsSupported = true,
+isAndroidBrowser = function () {
+var e = navigator.userAgent,
+l = e.indexOf("Android") > -1 && e.indexOf("Mozilla/5.0") > -1 && e.indexOf("AppleWebKit") > -1,
+n = new RegExp(/AppleWebKit\/([\d.]+)/), r = null === n.exec(e) ? null : parseFloat(n.exec(e)[1]),
+i = new RegExp(/Chrome\/([\d.]+)/), a = null === i.exec(e) ? null : parseFloat(i.exec(e)[1]);
+return l && null !== r && r < 537 || null !== a && a < 37
+},
+createCustomParameters = function () {
+return 'mynet_kategori=haber&mynet_servis=Diger&keywords=VID8206052,tvchannel_mynet-haber,tvcat_9,insite,tvembed_diger';
+},
+getCustParams = function () {
+return {
+"mynet_kategori": "haber",
+"mynet_servis": "Diger",
+"keywords": "VID8206052,tvchannel_mynet-haber,tvcat_9,insite,tvembed_diger"
+}
+},
+myChecker = function (condition, callback) {
+if ('function' != typeof condition || 'function' != typeof callback) {
+return false;
+}
+var checker = setInterval(function () {
+condition() && (clearInterval(checker), callback())
+}, 50);
+setTimeout(function () {
+clearInterval(checker);
+}, 5e3);
+},
+isBlockAds = false,
+descriptionUrl = 'https%3A%2F%2Fwww.mynet.com',
+videoInfo = {
+"videoID": "8206052",
+"videoTitle": "Sokak ortasında dehşet kamerada! Eşini tekme tokat d&ouml;verek bayılttı",
+"posterURL": "https://imgmyntv.mynet.com/images/8206052/687474703a2f2f7669333263646e2e6d796e65742e636f6d2f766964656f2f3132392f3135322f383230363035322f312e6a70673f76657273696f6e3d323032332d30382d30382031313a31393a3031/640x360.jpg",
+"videoPageURL": "https://www.mynet.com/sokak-ortasinda-dehset-kamerada-esini-tekme-tokat-doverek-bayiltti-8206052-myvideo",
+"duration":    55,
+"contentType": "n",
+"storyboard": "",
+"media": {
+"level": [
+{
+"value": 360,
+"source": "https://vi32.mynet.com/video/129/152/8206052/8206052240SD.mp4"
+}
+],
+"defaultQuality": 360,
+source: "https://multihls.mynet.com/mediacache/_definst_/mynet32/mynet32/mynet32/video/129/152/8206052/8206052240SD,8206052,8206052720HD.mp4/playlist.m3u8",
+type: "hls"
+},
+"shareAsset": {
+"facebook": "https://www.facebook.com/sharer.php?u=https://www.mynet.com/sokak-ortasinda-dehset-kamerada-esini-tekme-tokat-doverek-bayiltti-8206052-myvideo",
+"twitter": "https://twitter.com/intent/tweet?hashtags=Mynet&original_referer=https://www.mynet.com/sokak-ortasinda-dehset-kamerada-esini-tekme-tokat-doverek-bayiltti-8206052-myvideo&related=Mynet&source=tweetbutton&text=Sokak ortasında dehşet kamerada! Eşini tekme tokat d&ouml;verek bayılttı&url=https://www.mynet.com/sokak-ortasinda-dehset-kamerada-esini-tekme-tokat-doverek-bayiltti-8206052-myvideo&via=Mynet",
+"link": "https://www.mynet.com/sokak-ortasinda-dehset-kamerada-esini-tekme-tokat-doverek-bayiltti-8206052-myvideo",
+"embedCode": '<iframe id="mynetVideoEmbed" src="https://www.mynet.com/tv/embed/8206052" width="640" height="360" frameborder="0" marginheight="0" marginwidth="0" scrolling="No"></iframe>'
+}
+},
+playerOptions = {
+"language": "tr",
+"playerName": "mynet",
+"showFullscreen": true,
+"showTitleBar": true,
+"showSeekBar": true,
+"showTimeDisplay": true,
+"showRel": false,
+"showReplay": true,
+"showLoop": false,
+"forcePreroll": false,
+"loop": false,
+"autoPlay": false,
+"theme": {
+foreground: "#ffffff",
+background: "#2f2f2f",
+highlight: "#f25920"
+},
+};
+if (!hlsSupported) {
+videoInfo["media"] = {source: "https://vi32.mynet.com/video/129/152/8206052/8206052240SD.mp4", type: "mp4"}
+}
+//Start: Prebid
+var PREBID_TIMEOUT = 1000;
+var FAILSAFE_TIMEOUT = 2000;
+var videoAdUnit = {
+code: '/28687765/mynet/mynettv/video_preroll',
+mediaTypes: {
+video: {
+playerSize: [640, 360],
+context: 'instream',
+mimes: ["video/mp4"],
+maxduration: 240,
+api: [1, 2, 3, 4, 5, 6],
+protocols: [1, 2, 3, 4, 5, 6, 7, 8],
+skip: 1,
+playbackmethod: [2, 3, 4, 6],
+placement: 1,
+linearity: 1
+//startdelay: 5
+}
+},
+bids: [
+{
+bidder: 'criteo',
+params: {
+networkId: 4454,
+zoneId: 1651625
+},
+},
+{
+bidder: 'rubicon',
+params: {
+accountId: 24266,
+siteId: 409966,
+zoneId: 2298308,
+video: {
+language: 'tr'
+}
+}
+},
+{
+bidder: 'smartadserver',
+params: {
+siteId: 430509,
+pageId: 1412497,
+formatId: 103421
+},
+},
+{
+bidder: 'turktelekom',
+params: {
+zoneId: 176,
+host: 'cpm.programattik.com'
+}
+}
+]
+}
+function getVideoAds(vastUrl) {
+var _ads = {}
+if (!isAndroidBrowser() && !isBlockAds) {
+var params = getCustParams(),
+customParameters = encodeURIComponent(Object.keys(params).map(function (key) {
+return key + '=' + params[key]
+}).join('&'))
+var adTag = 'https://pubads.g.doubleclick.net/gampad/ads?iu=/28687765/mynet/mynettv/video_preroll&cust_params=' + customParameters + '&description_url=' + descriptionUrl + '&tfcd=0&npa=0&sz=640x360&gdfp_req=1&output=vast&unviewed_position_start=1&env=vp&impl=s&correlator='
+if (vastUrl !== undefined) {
+adTag = vastUrl
+}
+//console.log(adTag)
+_ads = {
+preroll: [
+{
+adStartTimeout: 10,
+//adTag: 'https://pubads.g.doubleclick.net/gampad/ads?iu=/28687765/mynet/mynettv/video_preroll&cust_params=' + customParameters + '&description_url=' + descriptionUrl + '&tfcd=0&npa=0&sz=640x360&gdfp_req=1&output=vast&unviewed_position_start=1&env=vp&impl=s&correlator='
+adTag: adTag
+}
+],
+// overlay:    [
+//     {
+//         offset: 10,
+//         adTag:  'https://pubads.g.doubleclick.net/gampad/ads?iu=/28687765/mynet/mynettv/video_overlay&cust_params='+ customParameters +'&description_url=' + descriptionUrl + '&tfcd=0&npa=0&sz=640x360&gdfp_req=1&output=vast&unviewed_position_start=1&env=vp&impl=s&correlator=&vad_type=nonlinear'
+//     }
+// ],
+postroll: [
+{
+adStartTimeout: 30,
+adTag: 'https://pubads.g.doubleclick.net/gampad/ads?iu=/28687765/mynet/mynettv/video_postroll&cust_params=' + customParameters + '&description_url=' + descriptionUrl + '&tfcd=0&npa=0&sz=640x360&gdfp_req=1&output=vast&unviewed_position_start=1&env=vp&impl=s&correlator='
+}
+]
+}
+}
+return _ads;
+}
+var noktaPlayer = new NoktaPlayer("nokta-player", playerOptions);
+noktaPlayer.mute();
+function setPlayerSize() {
+noktaPlayer.setSize(window.innerWidth, window.innerHeight);
+}
+var playerLoaded = false;
+function loadPlayer(prebidVastUrl) {
+if (!playerLoaded) {
+noktaPlayer.loadVideo(videoInfo, getVideoAds(prebidVastUrl));
+}
+playerLoaded = true;
+}
+window.addEventListener('resize', function () {
+setPlayerSize();
+});
+var pbjs = pbjs || {};
+pbjs.que = pbjs.que || [];
+var gdprApplies = false, tcString = '', prebidInited = false
+function initPrebid() {
+if (prebidInited) {
+return
+}
+prebidInited = true;
+pbjs.que.push(function () {
+pbjs.addAdUnits(videoAdUnit);
+pbjs.setConfig({
+debug: false,
+priceGranularity: "high",
+rubicon: {
+singleRequest: true
+},
+userSync: {
+userIds: [{
+name: "criteo",
+}]
+},
+consentManagement: {
+gdpr: {
+cmpApi: 'static',
+timeout: 2000,
+consentData: {
+getTCData: {
+tcString: tcString,
+gdprApplies: gdprApplies,
+}
+}
+}
+},
+cache: {
+url: 'https://prebid.adnxs.com/pbc/v1/cache'
+}
+});
+pbjs.requestBids({
+bidsBackHandler: function (bids, timedOut, auctionId) {
+var vastUrl = pbjs.adServers.dfp.buildVideoUrl({
+adUnit: videoAdUnit,
+params: {
+iu: '/28687765/mynet/mynettv/video_preroll',
+output: "vast",
+cust_params: getCustParams()
+}
+});
+loadPlayer(vastUrl)
+},
+timeout: PREBID_TIMEOUT
+});
+});
+}
+myChecker(function () {
+return (typeof __tcfapi !== 'undefined')
+}, function () {
+__tcfapi('getTCData', 2, function (tcData, success) {
+if (success) {
+gdprApplies = tcData.gdprApplies
+tcString = tcData.tcString
+}
+initPrebid()
+});
+})
+setTimeout(function () {
+initPrebid()
+}, 1e3)
+setTimeout(function () {
+loadPlayer()
+}, FAILSAFE_TIMEOUT);
+</script>
+<!-- Page generated in 0.014562129974365 seconds. Now: 2023-08-08 11:52:42, Timezone: Europe/Istanbul, DefaultTz: Europe/Istanbul -->
+<script type="text/javascript">
+// Google Tag Manager
+(function (w, d, s, l, i) {
+w[l] = w[l] || [];
+w[l].push({
+'gtm.start':
+new Date().getTime(), event: 'gtm.js'
+});
+var f = d.getElementsByTagName(s)[0],
+j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
+j.async = true;
+j.src =
+'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+f.parentNode.insertBefore(j, f);
+})(window, document, 'script', 'dataLayer', 'GTM-TTQ2B72');
+// End Google Tag Manager
+</script>
+</body>
+</html>
